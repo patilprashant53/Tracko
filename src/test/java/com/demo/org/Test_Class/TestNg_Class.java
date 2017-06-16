@@ -19,6 +19,8 @@ public class TestNg_Class
   
   public void firstf()
   {
+	  Sign_Class ref=new Sign_Class(driver);
+	  ref.start();
 	  
   }
 @Test(priority=3,dependsOnMethods="firstf")
@@ -29,10 +31,10 @@ public class TestNg_Class
 	ref1.run();
 	  
   }
- // @Parameters("browsersss")
- // @BeforeTest
+  @Parameters("browsersss")
+  @BeforeTest
   
-@Test(priority=1,dataProvider="browsersss")
+//@Test(priority=1,dataProvider="browsersss")
 
   public void beforeTest(String browsers) 
    {
@@ -61,22 +63,18 @@ public class TestNg_Class
 	}
 	  driver.get("https://dev.tracko.co.in/");
 	  driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-	  
-
-	  Sign_Class ref=new Sign_Class(driver);
-	  ref.start();
   }
 
-@DataProvider(name="browsersss")
+//@DataProvider(name="browsersss")
 public Object[][] mydata()
 {
 //	String name[]=new String[3];
 //	name[0]="ffv";
 //	name[1]="yggb";
 	
-	Object data[][]=new Object[2][1];
+	Object data[][]=new Object[1][1];
 	data[0][0]="Chrome";
-	data[1][0]="firefox";
+	//data[1][0]="firefox";
 	
 	return data;
 	
