@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="Tests">
+  <test name="Test">
+  <parameter name="browsersss" value="Chrome"></parameter>  
+  
+    <classes>
+      <class name="com.demo.org.Test_Class.TestNg_Class"/>
+    </classes>
+    </test>
+   <test name="Test1">
+  <parameter name="browsersss" value="firefox"></parameter>  
+  
+    <classes>
+      <class name="com.demo.org.Test_Class.TestNg_Class"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
