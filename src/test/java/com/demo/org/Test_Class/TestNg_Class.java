@@ -68,7 +68,7 @@ public class TestNg_Class
 //@DataProvider(name="browsersss")
 public Object[][] mydata()
 {
-//My name is saurab and I am doing GIT
+//My name is prashnt patil 
 	Object data[][]=new Object[1][1];
 	data[0][0]="Chrome";
 	//data[1][0]="firefox";
