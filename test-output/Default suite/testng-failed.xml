@@ -6,6 +6,7 @@
       <class name="com.demo.org.Test_Class.TestNg_Class">
         <methods>
           <include name="second"/>
+          <include name="beforeTest"/>
           <include name="afterTest"/>
           <include name="firstf"/>
         </methods>

@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="25873" started-at="2017-06-16T03:12:57Z" finished-at="2017-06-16T03:13:23Z">
+  <suite name="Suite" duration-ms="55308" started-at="2017-07-11T03:09:53Z" finished-at="2017-07-11T03:10:49Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="17803" started-at="2017-06-16T03:12:57Z" finished-at="2017-06-16T03:13:14Z">
+    <test name="Test" duration-ms="24308" started-at="2017-07-11T03:09:53Z" finished-at="2017-07-11T03:10:18Z">
       <class name="com.demo.org.Test_Class.TestNg_Class">
-        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.demo.org.Test_Class.TestNg_Class@66a3ffec]" name="beforeTest" is-config="true" duration-ms="10210" started-at="2017-06-16T08:42:57Z" finished-at="2017-06-16T08:43:07Z">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.demo.org.Test_Class.TestNg_Class@66a3ffec]" name="beforeTest" is-config="true" duration-ms="13884" started-at="2017-07-11T08:39:53Z" finished-at="2017-07-11T08:40:07Z">
           <params>
             <param index="0">
               <value>
@@ -18,23 +18,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="firstf()[pri:2, instance:com.demo.org.Test_Class.TestNg_Class@66a3ffec]" name="firstf" duration-ms="3404" started-at="2017-06-16T08:43:07Z" finished-at="2017-06-16T08:43:10Z">
+        <test-method status="PASS" signature="firstf()[pri:2, instance:com.demo.org.Test_Class.TestNg_Class@66a3ffec]" name="firstf" duration-ms="2479" started-at="2017-07-11T08:40:07Z" finished-at="2017-07-11T08:40:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firstf -->
-        <test-method status="PASS" signature="second()[pri:3, instance:com.demo.org.Test_Class.TestNg_Class@66a3ffec]" name="second" duration-ms="3281" started-at="2017-06-16T08:43:10Z" depends-on-methods="com.demo.org.Test_Class.TestNg_Class.firstf" finished-at="2017-06-16T08:43:14Z">
+        <test-method status="PASS" signature="second()[pri:3, instance:com.demo.org.Test_Class.TestNg_Class@66a3ffec]" name="second" duration-ms="5873" started-at="2017-07-11T08:40:10Z" depends-on-methods="com.demo.org.Test_Class.TestNg_Class.firstf" finished-at="2017-07-11T08:40:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- second -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.demo.org.Test_Class.TestNg_Class@66a3ffec]" name="afterTest" is-config="true" duration-ms="871" started-at="2017-06-16T08:43:14Z" finished-at="2017-06-16T08:43:14Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.demo.org.Test_Class.TestNg_Class@66a3ffec]" name="afterTest" is-config="true" duration-ms="2023" started-at="2017-07-11T08:40:15Z" finished-at="2017-07-11T08:40:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- com.demo.org.Test_Class.TestNg_Class -->
     </test> <!-- Test -->
-    <test name="Test1" duration-ms="25873" started-at="2017-06-16T03:12:57Z" finished-at="2017-06-16T03:13:23Z">
+    <test name="Test1" duration-ms="55302" started-at="2017-07-11T03:09:53Z" finished-at="2017-07-11T03:10:49Z">
       <class name="com.demo.org.Test_Class.TestNg_Class">
-        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.demo.org.Test_Class.TestNg_Class@13deb50e]" name="beforeTest" is-config="true" duration-ms="18458" started-at="2017-06-16T08:42:57Z" finished-at="2017-06-16T08:43:15Z">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.demo.org.Test_Class.TestNg_Class@13deb50e]" name="beforeTest" is-config="true" duration-ms="46929" started-at="2017-07-11T08:39:53Z" finished-at="2017-07-11T08:40:40Z">
           <params>
             <param index="0">
               <value>
@@ -45,31 +45,31 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="firstf()[pri:2, instance:com.demo.org.Test_Class.TestNg_Class@13deb50e]" name="firstf" duration-ms="2421" started-at="2017-06-16T08:43:15Z" finished-at="2017-06-16T08:43:18Z">
+        <test-method status="PASS" signature="firstf()[pri:2, instance:com.demo.org.Test_Class.TestNg_Class@13deb50e]" name="firstf" duration-ms="2797" started-at="2017-07-11T08:40:40Z" finished-at="2017-07-11T08:40:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firstf -->
-        <test-method status="PASS" signature="second()[pri:3, instance:com.demo.org.Test_Class.TestNg_Class@13deb50e]" name="second" duration-ms="4848" started-at="2017-06-16T08:43:18Z" depends-on-methods="com.demo.org.Test_Class.TestNg_Class.firstf" finished-at="2017-06-16T08:43:22Z">
+        <test-method status="PASS" signature="second()[pri:3, instance:com.demo.org.Test_Class.TestNg_Class@13deb50e]" name="second" duration-ms="5358" started-at="2017-07-11T08:40:43Z" depends-on-methods="com.demo.org.Test_Class.TestNg_Class.firstf" finished-at="2017-07-11T08:40:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- second -->
-        <test-method status="FAIL" signature="afterTest()[pri:0, instance:com.demo.org.Test_Class.TestNg_Class@13deb50e]" name="afterTest" is-config="true" duration-ms="125" started-at="2017-06-16T08:43:22Z" finished-at="2017-06-16T08:43:22Z">
+        <test-method status="FAIL" signature="afterTest()[pri:0, instance:com.demo.org.Test_Class.TestNg_Class@13deb50e]" name="afterTest" is-config="true" duration-ms="185" started-at="2017-07-11T08:40:48Z" finished-at="2017-07-11T08:40:48Z">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Tried to run command without establishing a connection
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'ADMIN-PC', ip: '192.168.0.6', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
+System info: host: 'ADMIN-PC', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\ADMIN\AppData\Local\Temp\rust_mozprofile.M9zS7vITIYuK, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0, platformVersion=6.1, moz:processID=4060.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 88d3249a-4104-4e09-9d8a-f23fb80f4a52]]>
+Capabilities [{moz:profile=C:\Users\ADMIN\AppData\Local\Temp\rust_mozprofile.gMnZFEOH0ii9, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0, platformVersion=6.1, moz:processID=5416.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: b6523e93-95a0-4708-8d6d-ba532ca12503]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'ADMIN-PC', ip: '192.168.0.6', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
+System info: host: 'ADMIN-PC', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\ADMIN\AppData\Local\Temp\rust_mozprofile.M9zS7vITIYuK, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0, platformVersion=6.1, moz:processID=4060.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 88d3249a-4104-4e09-9d8a-f23fb80f4a52
+Capabilities [{moz:profile=C:\Users\ADMIN\AppData\Local\Temp\rust_mozprofile.gMnZFEOH0ii9, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0, platformVersion=6.1, moz:processID=5416.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: b6523e93-95a0-4708-8d6d-ba532ca12503
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -82,7 +82,7 @@ Session ID: 88d3249a-4104-4e09-9d8a-f23fb80f4a52
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)
 	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:533)
-	at com.demo.org.Test_Class.TestNg_Class.afterTest(TestNg_Class.java:86)
+	at com.demo.org.Test_Class.TestNg_Class.afterTest(TestNg_Class.java:83)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)

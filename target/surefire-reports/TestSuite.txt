@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 81.715 sec <<< FAILURE! - in TestSuite
+afterTest(com.demo.org.Test_Class.TestNg_Class)  Time elapsed: 4.26 sec  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Tried to run command without establishing a connection
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ADMIN-PC', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\ADMIN\AppData\Local\Temp\rust_mozprofile.XBdOq3yZxcg1, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0, platformVersion=6.1, moz:processID=4460.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 96628abf-0f04-4455-94c6-dc906ebf7f92
+	at com.demo.org.Test_Class.TestNg_Class.afterTest(TestNg_Class.java:83)
+
